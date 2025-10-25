@@ -11,6 +11,9 @@ header {
   text-align: center;
   padding: 2rem 1rem;
 }
+span {
+  color: #facc15;
+}
 
 section {
   max-width: 900px;
@@ -20,11 +23,27 @@ section {
 
 h2 {
   color: #2563eb;
-  border-bottom: 2px solid #2563eb;
+  /* border-bottom: 2px solid #2563eb; */
   display: inline-block;
   margin-bottom: 1rem;
 }
+h2:hover {
+  color: #facc15;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #facc15;
+}
+a:visited {
+  color: #111827;
+}
 
+/* img {
+  height: 20rem;
+  margin: 1rem;
+} */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -40,6 +59,16 @@ h2 {
 
 .gallery img:hover {
   transform: scale(1.03);
+}
+.web {
+  padding: 1rem;
+  background-color: #facc15;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.2rem;
 }
 
 footer {
